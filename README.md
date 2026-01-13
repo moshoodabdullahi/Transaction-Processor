@@ -15,3 +15,32 @@
 - Async/Await
 
 - Optional Chaining
+
+## Functions Explained
+
+### getTotalCompleted(transactions)
+
+Returns the total amount of all completed transactions.
+
+### groupByType(transactions)
+
+Groups transactions into an object based on their type.
+
+### getStats(transactions)
+
+- Returns a summary object containing:
+- Total number of transactions
+- Count of completed, pending, and failed
+- Total transaction amount
+
+### formatTransaction(transaction)
+
+Formats a transaction into a human-readable string for UI display.
+
+### processTransactions(userId)
+
+Formatted display text
+Associated `userId`
+Uses `async/await` with `setTimeout` to mimic real API behavior.
+
+
